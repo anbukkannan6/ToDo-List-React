@@ -7,6 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: powderblue;
+
 }
 .mainContainer{
    
@@ -15,13 +16,21 @@ body{
     padding: 40px 70px 40px ;
     max-width: 540px;
     background-color:whitesmoke;
+    @media screen and (max-width:500px){
+
+        max-width: 270px;
+        padding: 15px 60px 35px ;
+
+    }
+ 
     
 
 }
 .toDoHeading{
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+ 
 }
 
 img{
@@ -58,6 +67,12 @@ input{
     color: aliceblue;
     font-weight: bolder;
     border-radius: 40px;
+    @media screen and (max-width:500px){
+
+        padding: 16px 30px;
+        border-radius: 20px;
+
+    }
 }
 
 
