@@ -1,5 +1,6 @@
 *{
     font-family: sans-serif;
+  
 }
 body{
     display: flex;
@@ -7,6 +8,12 @@ body{
     justify-content: center;
     align-items: center;
     background-color: powderblue;
+    @media screen and (max-width:500px){
+
+       align-items: normal;
+       margin-top: 100px;
+
+    }
 
 }
 .mainContainer{
@@ -19,7 +26,7 @@ body{
     @media screen and (max-width:500px){
 
         max-width: 270px;
-        padding: 15px 60px 35px ;
+        padding: 15px 55px 20px ;
 
     }
  
